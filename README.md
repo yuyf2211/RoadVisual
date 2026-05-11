@@ -86,7 +86,7 @@ All images share a common legend (placed at the bottom right / right side), cove
 
 The image below shows the evolution for **Anhui Province** (2016–2025) as an example:
 
-![Anhui Evolution](images/Anhui_2016-2025_Evolution.png)
+![Anhui Evolution](images/Anhui_2016-2025_evolution.png)
 
 *All images follow the same layout and legend style and are stored in the `images` folder.*
 
