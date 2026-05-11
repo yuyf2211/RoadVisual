@@ -1,118 +1,118 @@
-# 中国33个省级行政区2016–2025年道路与六类POI演变图集
+# China's 33 Provincial-Level Administrative Regions: 2016–2025 Road & Six Types of POI Evolution Atlas
 
-本仓库展示了中国大陆**33个省级行政区（不含台湾省）** 在2016年至2025年期间，**道路网络**（按28种fclass分类着色）与**六类POI（兴趣点）** 的时空演变综合图。每个省份一张高清PNG图片（1200 DPI），图中包含：
+This repository presents a comprehensive visualization of the spatiotemporal evolution of **road networks** (categorized by 28 fclass values) and **six categories of POI (Points of Interest)** across **33 provincial-level administrative regions in mainland China (excluding Taiwan Province)** from 2016 to 2025. For each province, we provide one high-resolution PNG image (1200 DPI) that includes:
 
-- 2016–2025年逐年道路+POI综合地图（网格排列，箭头连接时间流向）
-- 年份标签（位于每张小图正上方）
-- 统一图例（道路等级与POI类型）
+- Year-by-year integrated road + POI maps (arranged in a grid, arrows indicate chronological flow)
+- Year labels placed directly above each sub‑map
+- A unified legend (road classes and POI categories)
 
-所有图片均为A4横向布局，PNG格式，适合直接用于论文、报告或可视化展示。
+All images are in landscape A4 layout, PNG format, suitable for academic papers, reports, or visual presentations.
 
-## 📁 仓库内容
+## 📁 Repository Content
 
-所有演变图均存放在 `images` 文件夹下（位于 `main` 分支），共有33张PNG文件，文件名格式为 `省份名_2016-2025_演变图.png`。根目录下仅包含本 `README.md` 文件。
+All evolution maps are stored in the `images` folder (on the `main` branch). There are 33 PNG files named as `ProvinceName_2016-2025_Evolution.png`. The root directory contains only this `README.md`.
 
-> 注：不含台湾省。
+> Note: Taiwan Province is not included.
 
-## 🗺️ 图例说明
+## 🗺️ Legend
 
-图中右下角/右侧统一图例包含以下两类要素：
+All images share a common legend (placed at the bottom right / right side), covering two categories of features:
 
-### 🚗 道路类型（28类）
+### 🚗 Road Types (28 classes)
 
-| 道路类型 (fclass) | RGB 颜色 | 色块示例 |
-|-------------------|----------|----------|
-| bridleway | (139, 69, 19) | 🟤 马鞍棕 |
-| busway | (255, 165, 0) | 🟠 橙色 |
-| cycleway | (34, 139, 34) | 🟢 森林绿 |
-| footway | (160, 82, 45) | 🟤 赭色 |
-| living_street | (173, 216, 230) | 🔵 浅蓝 |
-| motorway | (255, 0, 0) | 🔴 红色 |
-| motorway_link | (255, 99, 71) | 🔴 番茄色 |
-| path | (210, 180, 140) | 🟤 茶色 |
-| pedestrian | (255, 228, 181) | 🟡 卡其色 |
-| primary | (255, 215, 0) | 🟡 金色 |
-| primary_link | (255, 215, 0) | 🟡 金色 |
-| residential | (192, 192, 192) | ⚪ 银色 |
-| secondary | (255, 255, 0) | 🟡 黄色 |
-| secondary_link | (255, 255, 0) | 🟡 黄色 |
-| service | (169, 169, 169) | ⚪ 暗灰色 |
-| steps | (0, 0, 255) | 🔵 蓝色 |
-| tertiary | (255, 140, 0) | 🟠 深橙色 |
-| tertiary_link | (255, 140, 0) | 🟠 深橙色 |
-| track | (139, 69, 19) | 🟤 马鞍棕 |
-| track_grade1 | (160, 82, 45) | 🟤 赭色 |
-| track_grade2 | (160, 82, 45) | 🟤 赭色 |
-| track_grade3 | (160, 82, 45) | 🟤 赭色 |
-| track_grade4 | (160, 82, 45) | 🟤 赭色 |
-| track_grade5 | (160, 82, 45) | 🟤 赭色 |
-| trunk | (0, 128, 0) | 🟢 绿色 |
-| trunk_link | (0, 128, 0) | 🟢 绿色 |
-| unclassified | (128, 128, 128) | ⚪ 灰色 |
-| unknown | (128, 128, 128) | ⚪ 灰色 |
+| Road Type (fclass) | RGB Color | Swatch |
+|--------------------|-----------|--------|
+| bridleway | (139, 69, 19) | 🟤 Saddle Brown |
+| busway | (255, 165, 0) | 🟠 Orange |
+| cycleway | (34, 139, 34) | 🟢 Forest Green |
+| footway | (160, 82, 45) | 🟤 Ochre |
+| living_street | (173, 216, 230) | 🔵 Light Blue |
+| motorway | (255, 0, 0) | 🔴 Red |
+| motorway_link | (255, 99, 71) | 🔴 Tomato |
+| path | (210, 180, 140) | 🟤 Tan |
+| pedestrian | (255, 228, 181) | 🟡 Khaki |
+| primary | (255, 215, 0) | 🟡 Gold |
+| primary_link | (255, 215, 0) | 🟡 Gold |
+| residential | (192, 192, 192) | ⚪ Silver |
+| secondary | (255, 255, 0) | 🟡 Yellow |
+| secondary_link | (255, 255, 0) | 🟡 Yellow |
+| service | (169, 169, 169) | ⚪ Dark Gray |
+| steps | (0, 0, 255) | 🔵 Blue |
+| tertiary | (255, 140, 0) | 🟠 Dark Orange |
+| tertiary_link | (255, 140, 0) | 🟠 Dark Orange |
+| track | (139, 69, 19) | 🟤 Saddle Brown |
+| track_grade1 | (160, 82, 45) | 🟤 Ochre |
+| track_grade2 | (160, 82, 45) | 🟤 Ochre |
+| track_grade3 | (160, 82, 45) | 🟤 Ochre |
+| track_grade4 | (160, 82, 45) | 🟤 Ochre |
+| track_grade5 | (160, 82, 45) | 🟤 Ochre |
+| trunk | (0, 128, 0) | 🟢 Green |
+| trunk_link | (0, 128, 0) | 🟢 Green |
+| unclassified | (128, 128, 128) | ⚪ Gray |
+| unknown | (128, 128, 128) | ⚪ Gray |
 
-> **线宽**：实际地图中为 **0.1 mm**（图例中放大显示以便识别）。
+> **Line width** in actual maps: **0.1 mm** (enlarged in the legend for readability).
 
-### 📍 POI类型（6类）
+### 📍 POI Categories (6 classes)
 
-| POI类型 | RGB 颜色 | 色块示例 |
-|---------|----------|----------|
-| natural | (44, 123, 57) | 🟢 深绿 |
-| places | (203, 103, 39) | 🟠 橙棕 |
-| pofw | (117, 56, 151) | 🟣 紫色 |
-| pois | (255, 140, 0) | 🟠 深橙色 |
-| traffic | (209, 58, 52) | 🔴 红色 |
-| transport | (53, 151, 143) | 🔵 深青 |
+| POI Type | RGB Color | Swatch |
+|----------|-----------|--------|
+| natural | (44, 123, 57) | 🟢 Dark Green |
+| places | (203, 103, 39) | 🟠 Orange‑Brown |
+| pofw | (117, 56, 151) | 🟣 Purple |
+| pois | (255, 140, 0) | 🟠 Dark Orange |
+| traffic | (209, 58, 52) | 🔴 Red |
+| transport | (53, 151, 143) | 🔵 Dark Cyan |
 
-> **符号样式**：实心圆形，实际地图中大小为 **0.8 mm**（图例中放大显示）。
+> **Symbol style**: solid circle, actual size **0.8 mm** (enlarged in the legend).
 
-## 📊 数据来源
+## 📊 Data Sources
 
-- **道路数据**：2016–2025年各省道路网络 shapefile（内部数据，未公开）
-- **POI数据**：同期六类兴趣点数据（内部数据，未公开）
+- **Road data**: Shapefiles for each province, 2016–2025 (internal, not publicly shared).
+- **POI data**: Six categories of POI shapefiles for the same period (internal, not publicly shared).
 
-## ⚙️ 生成方法
+## ⚙️ Generation Method
 
-### 工具
+### Tools
 - QGIS 3.40+ (Python API)
-- 自定义QGIS批量导出脚本
+- Custom QGIS batch export scripts
 
-### 制作流程
-1. **单年综合图**：提取各省当年道路（按 `fclass` 分类着色）与六类POI（按类型固定颜色），叠加后导出A4 PDF/PNG。
-2. **演变图拼接**：将同省份10年综合图按年份顺序排列（每行最多4张），年份标签置于图片上方，箭头连接时间序列，底部添加统一图例。
-3. **高清导出**：PNG分辨率 **1200 DPI**，确保放大清晰。
+### Workflow
+1. **Single-year composite**: Extract annual road networks (categorized by `fclass`) and six POI layers (fixed colors), overlay, and export as A4 PDF/PNG.
+2. **Evolution mosaic**: Arrange the 10 composite images for each province in a grid (max 4 per row), place year labels above each sub‑image, connect years with arrows, and append a unified legend.
+3. **High-resolution export**: PNG at **1200 DPI** to guarantee sharpness when zoomed in.
 
-## 📈 示例图
+## 📈 Example
 
-下图以 **安徽省** 为例展示2016→2025年的道路与POI动态变化：
+The image below shows the evolution for **Anhui Province** (2016–2025) as an example:
 
-![安徽省演变图](images/安徽省_2016-2025_演变图.png)
+![Anhui Evolution](images/Anhui_2016-2025_Evolution.png)
 
-*（所有图片均采用相同布局和图例风格，存放在 `images` 文件夹中）*
+*All images follow the same layout and legend style and are stored in the `images` folder.*
 
-## 📋 覆盖省份列表
+## 📋 List of Covered Provinces and Regions
 
-北京市、天津市、上海市、重庆市、河北省、山西省、辽宁省、吉林省、黑龙江省、江苏省、浙江省、安徽省、福建省、江西省、山东省、河南省、湖北省、湖南省、广东省、海南省、四川省、贵州省、云南省、陕西省、甘肃省、青海省、内蒙古自治区、广西壮族自治区、宁夏回族自治区、新疆维吾尔自治区、西藏自治区、香港特别行政区、澳门特别行政区。
+Beijing, Tianjin, Shanghai, Chongqing, Hebei, Shanxi, Liaoning, Jilin, Heilongjiang, Jiangsu, Zhejiang, Anhui, Fujian, Jiangxi, Shandong, Henan, Hubei, Hunan, Guangdong, Hainan, Sichuan, Guizhou, Yunnan, Shaanxi, Gansu, Qinghai, Inner Mongolia, Guangxi, Ningxia, Xinjiang, Xizang (Tibet), Hong Kong SAR, Macau SAR.
 
-（共33个省级行政区，不含台湾省）
+(33 provincial-level administrative regions; Taiwan Province excluded)
 
-## 🔍 应用场景
+## 🔍 Potential Applications
 
-- 城市扩张与交通基础设施演变研究
-- 兴趣点时空分布与城市功能变迁
-- 跨区域比较分析
-- 论文插图、PPT展示、教学案例
+- Urban expansion and transport infrastructure evolution studies
+- Spatiotemporal distribution of POIs and urban functional changes
+- Cross‑regional comparative analysis
+- Academic paper illustrations, presentation slides, teaching cases
 
-## 📄 许可证
+## 📄 License
 
-本仓库中的可视化成果采用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) 许可。数据版权归原始数据采集方所有。
+The visual outputs in this repository are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). The copyright of the original data belongs to the respective data collectors.
 
-## ✉️ 联系方式
+## ✉️ Contact
 
-如有疑问或合作意向，请通过 GitHub Issues 联系。
+For questions or collaboration, please open a GitHub Issue.
 
 ---
 
-**最后更新：** 2025年5月  
-**工具版本：** QGIS 3.40.11, Python 3.12  
-**数据时间范围：** 2016年 – 2025年
+**Last updated:** May 2025  
+**Software used:** QGIS 3.40.11, Python 3.12  
+**Data period:** 2016 – 2025
